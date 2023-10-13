@@ -2,95 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Peta Belajar Front-End Developer</title>
+    <title>Data Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <style>
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Style header */
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-/* Style main content */
-#map {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin: 20px;
-}
-
-.topic {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 30%;
-    margin: 10px;
-}
-
-.topic h2 {
-    font-size: 1.5rem;
-}
-
-ul {
-    list-style: none;
-}
-
-li {
-    padding: 5px 0;
-}
-
-/* Responsiveness */
-@media (max-width: 768px) {
-    #map {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .topic {
-        width: 80%;
-    }
-}
-
-    </style>
-    <header>
-        <h1>Peta Belajar Front-End Developer</h1>
-    </header>
-    <section id="map">
-        <div class="topic">
-            <h2>Fiqi &amp; Guntur</h2>
-            <ul>
-                <li></li>
-                <li>HTML Elements</li>
-                <li>CSS Introduction</li>
-                <li>CSS Selectors</li>
-                <li>Box Model</li>
-            </ul>
-        </div>
-        <div class="topic">
-            <h2>JavaScript</h2>
-            <ul>
-                <li>JavaScript Basics</li>
-                <li>Variables &amp; Data Types</li>
-                <li>Functions</li>
-                <li>DOM Manipulation</li>
-                <li>Event Handling</li>
-            </ul>
-        </div>
-        <!-- Tambahkan topik-topik lainnya di sini -->
-    </section>
+    <div class="container">
+        <h1>Data Diri</h1>
+        <ul>
+            <li>
+                <label for="nama">Nama: </label>
+                Guntur 
+            </li>
+            <li>
+                <label for="umur">Umur: </label>
+                17 Tahun
+            </li>
+            <li>
+                <label for="alamat">Alamat: </label>
+                Jl. Kenangan Indah No. 123
+            </li>
+            <li>
+                <label for="email">Email: </label>
+                johndoe@email.com
+            </li>
+            <li>
+                <label for="telepon">Telepon: </label>
+                08123456789
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
-
